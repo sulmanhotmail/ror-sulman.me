@@ -1,28 +1,34 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is code for SULMAN => a portfolio website in ruby on rails
+This app is created in Ruby 2.2.1 and Rails 4.2.0
 
-Things you may want to cover:
+** [sulman.me test website](http://www.sulman.me) **
 
-* Ruby version
+To make it your own...
 
-* System dependencies
+* Copy whole repo
 
-* Configuration
+* Run in terminal `bundle install`
 
-* Database creation
+* Run in terminal `rake db:migrate`
 
-* Database initialization
+* Run in terminal `run server`
 
-* How to run the test suite
+* Run in browser `localhost:3000`
 
-* Services (job queues, cache servers, search engines, etc.)
+Main Gems:
 
-* Deployment instructions
+* Ruby version 2.2.1
 
-* ...
+* Rails 4.2.0
 
+* twitter-bootstrap-rails
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* font-awesome-rails
+
+* sqlite3
+
+* pg `for heroku`
+
+* rails_12factor `for heroku`
