@@ -1,0 +1,42 @@
+<% content_for :title, 'Home' %>
+
+<style>
+    <% content_for :styles do %>
+        body {
+            background-color: #efefef;
+            min-height: auto;
+        }
+        .dpImg {
+            border-radius: 100%;
+        }
+        <% end %>
+</style>
+
+<section>
+<% content_for :section do %>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <a href = "/dpMain.jpg">
+            <img src="/dpMain.jpg" alt="Profile Picture" title="Mirza Sulman Baig" class="img-responsive dpImg" />
+          </a>
+        </div>
+        <div class="col-sm-8">
+          <h1 class="text-center">Mirza Sulman Baig</h1>
+          <p class="text-justify">I am now a days, working as researcher in <a href="http://www.isip40.it/index.php?mod=01_Staff&file=Sulman" >Image and Signal Processing Lab (ISIP40)</a>, in <strong>DITEN, University of Genova, Italy.</strong>
+            I am working towards research in multi-person detection and tracking in crowd.
+            I am using this information to further detect and analyze the crowd emotions.<a href="https://www.youtube.com/channel/UCkecwtFwuPlVPKUhgI8bzvw" >(LINK)</a></p>
+          <p class="text-justify">My interests are in learning is mostly any programming language. I have worked in C, C++, C#, JAVA, Android, HTML, CSS, Python,
+            PHP, CUDA C, MATLAB, OpenCV, MySQL etc. Now a days I am working on OpenCV for image and video processing and learning R language for data-analysis.
+            Out of my passion of programming, I am learning web application development using PHP, Ruby on Rails and soon by Python/Django.</p>
+          <p class="text-justify">If anyone want to contact, feel free to contact me. You can find my contact information <%= link_to 'here ->', contact_path %></p>
+        </div>
+      </div>
+    </div>
+<% end %>
+</section>
+
+<script>
+    <% content_for :scripts do %>
+    <% end %>
+</script>
