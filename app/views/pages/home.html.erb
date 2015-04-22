@@ -18,15 +18,8 @@
         <div class="row">
           <div class="col-sm-2">
             <a href = "/dpMain.jpg">
-              <img src="/dpMain.jpg" alt="Profile Picture" title="Mirza Sulman Baig" class="img-responsive dpImg" /></a>
-            <div class="text-center">
-              <div id="shareBtn" class="btn btn-success clearfix">Share Dialog</div>
-              <a href="https://www.facebook.com/dialog/feed?
-  app_id=145634995501895
-  &display=popup&caption=An%20example%20caption
-  &link=https%3A%2F%2Ffotolib.sulman.me%2F
-  &redirect_uri=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fexplorer">Hello</a>
-            </div>
+              <img src="/dpMain.jpg" alt="Profile Picture" title="Mirza Sulman Baig" class="img-responsive dpImg" />
+            </a>
           </div>
           <div class="col-sm-6">
             <h1 class="text-center">Mirza Sulman Baig</h1>
@@ -55,12 +48,5 @@
 
 <script>
     <% content_for :scripts do %>
-    document.getElementById('shareBtn').onclick = function() {
-        FB.ui({
-            display: 'popup',
-            method: 'share',
-            href: 'http://bit.ly/1yKUlCl',
-        }, function(response){});
-    }
     <% end %>
 </script>
