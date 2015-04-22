@@ -16,12 +16,15 @@
 <% content_for :section do %>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-2">
           <a href = "/dpMain.jpg">
             <img src="/dpMain.jpg" alt="Profile Picture" title="Mirza Sulman Baig" class="img-responsive dpImg" />
+            <div class="text-center">
+            <div class="fb-follow" data-href="https://www.facebook.com/tiredofbeingnumb" data-width="100" data-height="100" data-colorscheme="dark" data-layout="button" data-show-faces="true"></div>
+            </div>
           </a>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-6">
           <h1 class="text-center">Mirza Sulman Baig</h1>
           <p class="text-justify">I am now a days, working as researcher in <a href="http://www.isip40.it/index.php?mod=01_Staff&file=Sulman" >Image and Signal Processing Lab (ISIP40)</a>, in <strong>DITEN, University of Genova, Italy.</strong>
             I am working towards research in multi-person detection and tracking in crowd.
@@ -30,6 +33,10 @@
             PHP, CUDA C, MATLAB, OpenCV, MySQL etc. Now a days I am working on OpenCV for image and video processing and learning R language for data-analysis.
             Out of my passion of programming, I am learning web application development using PHP, Ruby on Rails and soon by Python/Django.</p>
           <p class="text-justify">If anyone want to contact, feel free to contact me. You can find my contact information <%= link_to 'here ->', contact_path %></p>
+        </div>
+        <div class="col-sm-4">
+          <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sulmanweb" data-widget-id="590969815415836672">Tweets by @sulmanweb</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
       </div>
     </div>
