@@ -20,7 +20,6 @@
             <a href = "/dpMain.jpg">
               <img src="/dpMain.jpg" alt="Profile Picture" title="Mirza Sulman Baig" class="img-responsive dpImg" />
             </a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://sulman.me" data-applink="fb://publish/profile/me?text=">Share</a>
           </div>
           <div class="col-sm-6">
             <h1 class="text-center">Mirza Sulman Baig</h1>
@@ -49,11 +48,5 @@
 
 <script>
     <% content_for :scripts do %>
-    $('a[data-applink]').applink({
-        popup: 'auto', // disable/enable share popup created by plugin. If auto, olny will be enabled to facebook and twitter domains
-        desktop: true, // disable/enable native app check for no mobile devices
-        data: 'applink', // load native links from data-XXXXXX attribute,
-        timeout: 1500 // time in ms to detect app before launch HTTP link (only when is mobile and desktop is false)
-    });
     <% end %>
 </script>
