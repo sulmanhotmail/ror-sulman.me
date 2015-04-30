@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def cv
   end
+
+  def works
+  end
 end

@@ -1,6 +1,6 @@
 <!-- Static navbar -->
 <nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -14,18 +14,20 @@
       <ul class="nav navbar-nav">
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Works <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="http://fotolib.sulman.me/">Web App: FotoLib (Private Images Managing App)</a></li>
-            <li><a href="http://scholarshipnetwork.info/">Web App: SSN (Scholarship website)</a></li>
-            <li><a href="http://stukdo.sulman.me/">Web App: Stukdo (todo list)</a></li>
-            <li><a href="http://estuk.sulman.me/">Web App: eStuk (2-sided bookstore)</a></li>
-            <li><a href="http://demo.sulman.me/">Website: Startup Demo Page</a></li>
-            <li class="divider"></li>
-            <li><a href="https://play.google.com/store/search?q=sulman%20baig" target="_blank">My Android Apps</a></li>
-          </ul>
-        </li>
+        <!--<li class="dropdown">-->
+          <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Works <span class="caret"></span></a>-->
+          <!--<ul class="dropdown-menu" role="menu">-->
+            <!--<li><a href="http://social.sulman.me/">Web App: Socialbook (Facebook like social network)</a></li>-->
+            <!--<li><a href="http://fotolib.sulman.me/">Web App: FotoLib (Private Images Managing App)</a></li>-->
+            <!--<li><a href="http://scholarshipnetwork.info/">Web App: SSN (Scholarship website)</a></li>-->
+            <!--<li><a href="http://stukdo.sulman.me/">Web App: Stukdo (todo list)</a></li>-->
+            <!--<li><a href="http://estuk.sulman.me/">Web App: eStuk (2-sided bookstore)</a></li>-->
+            <!--<li><a href="http://demo.sulman.me/">Website: Startup Demo Page</a></li>-->
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="https://play.google.com/store/search?q=sulman%20baig" target="_blank">My Android Apps</a></li>-->
+          <!--</ul>-->
+        <!--</li>-->
+        <li><%= link_to 'My Works', works_path %></li>
         <li><%= link_to 'My CV', cv_path %></li>
         <li><%= link_to 'Contact', contact_path %></li>
       </ul>
