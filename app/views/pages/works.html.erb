@@ -3,6 +3,29 @@
   <% content_for :section do %>
       <div class="container-fluid">
         <div class="row link-ex">
+
+          <!-- note link -->
+          <%= link_to "http://note.sulman.me/" do %>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="offer offer-radius offer-primary">
+                  <div class="shape">
+                    <div class="shape-text">
+                      new
+                    </div>
+                  </div>
+                  <div class="offer-content">
+                    <h3 class="lead">
+                      Key-Note
+                    </h3>
+                    <p>
+                      http://note.sulman.me/<br>
+                      Note taking and sharing app in material design
+                    </p>
+                  </div>
+                </div>
+              </div>
+          <% end %>
+
           <!-- socialbook link -->
           <%= link_to "http://social.sulman.me/" do %>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
@@ -29,11 +52,6 @@
           <%= link_to "http://fotolib.sulman.me/" do %>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="offer offer-radius offer-primary">
-                  <div class="shape">
-                    <div class="shape-text">
-                      new
-                    </div>
-                  </div>
                   <div class="offer-content">
                     <h3 class="lead">
                       FotoLib
